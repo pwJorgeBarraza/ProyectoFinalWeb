@@ -1,0 +1,31 @@
+body{
+	font-size: 16px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#fechaHeader{
+	text-align: center;
+}
+
+body table: {
+	margin: auto;
+}
+
+.tableCubiculos td{
+	text-align: center;
+}
+
+.tableCubiculos button{
+	width: 60px;
+	height: 40px;
+}
+
+#articleCubiculo{
+	text-align: center;
+}
+
+#articleDatosCubiculo{
+
+}
+
