@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Proyecto Final</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/estilos.css">
+	<script
+  	src="https://code.jquery.com/jquery-3.2.1.min.js"
+  	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+ 	 crossorigin="anonymous"></script>
+  	<script src="js/eventos.js"></script>
+</head>
+<body>
+	<label for="usr" id="fechaHeader" class="center-block">Numero y nombre del cubiculo seleccionado</label>
+	<br>
+	<article id="articleTablaCubiculos">
+		<table class="tableCubiculos" align="center">
+		<tr>
+			<td>Hora Cubículo</td>
+			<td>07:00</td>
+			<td>08:00</td>
+			<td>09:00</td>
+			<td>10:00</td>
+			<td>11:00</td>
+			<td>12:00</td>
+			<td>13:00</td>
+			<td>14:00</td>
+			<td>15:00</td>
+			<td>16:00</td>
+			<td>17:00</td>
+			<td>Reportes</td>
+		</tr>
+		<tr>
+			<td>01</td>
+			<td><button id="c01h1"></button></td>
+			<td><button id="c01h2"></button></td>
+			<td><button id="c01h3"></button></td>
+			<td><button id="c01h4"></button></td>
+			<td><button id="c01h5"></button></td>
+			<td><button id="c01h6"></button></td>
+			<td><button id="c01h7"></button></td>
+			<td><button id="c01h8"></button></td>
+			<td><button id="c01h9"></button></td>
+			<td><button id="c01h10"></button></td>
+			<td><button id="c01h11"></button></td>
+			<td><button id="c01R" style="background-color:powderblue;">...</button></td>
+		</tr>
+		<tr>
+			<td>02</td>
+			<td><button id="c02h1"></button></td>
+			<td><button id="c02h2"></button></td>
+			<td><button id="c02h3"></button></td>
+			<td><button id="c02h4"></button></td>
+			<td><button id="c02h5"></button></td>
+			<td><button id="c02h6"></button></td>
+			<td><button id="c02h7"></button></td>
+			<td><button id="c02h8"></button></td>
+			<td><button id="c02h9"></button></td>
+			<td><button id="c02h10"></button></td>
+			<td><button id="c02h11"></button></td>
+			<td><button id="c02R" style="background-color:powderblue;">...</button></td>
+		</tr>
+		<tr>
+			<td>03</td>
+			<td><button id="c03h1"></button></td>
+			<td><button id="c03h2"></button></td>
+			<td><button id="c03h3"></button></td>
+			<td><button id="c03h4"></button></td>
+			<td><button id="c03h5"></button></td>
+			<td><button id="c03h6"></button></td>
+			<td><button id="c03h7"></button></td>
+			<td><button id="c03h8"></button></td>
+			<td><button id="c03h9"></button></td>
+			<td><button id="c03h10"></button></td>
+			<td><button id="c03h11"></button></td>
+			<td><button id="c03R" style="background-color:powderblue;">...</button></td>
+		</tr>
+		<tr>
+			<td>04</td>
+			<td><button id="c04h1"></button></td>
+			<td><button id="c04h2"></button></td>
+			<td><button id="c04h3"></button></td>
+			<td><button id="c04h4"></button></td>
+			<td><button id="c04h5"></button></td>
+			<td><button id="c04h6"></button></td>
+			<td><button id="c04h7"></button></td>
+			<td><button id="c04h8"></button></td>
+			<td><button id="c04h9"></button></td>
+			<td><button id="c04h10"></button></td>
+			<td><button id="c04h11"></button></td>
+			<td><button id="c04R" style="background-color:powderblue;">...</button></td>
+		</tr>
+		<tr>
+			<td>05</td>
+			<td><button id="c05h1"></button></td>
+			<td><button id="c05h2"></button></td>
+			<td><button id="c05h3"></button></td>
+			<td><button id="c05h4"></button></td>
+			<td><button id="c05h5"></button></td>
+			<td><button id="c05h6"></button></td>
+			<td><button id="c05h7"></button></td>
+			<td><button id="c05h8"></button></td>
+			<td><button id="c05h9"></button></td>
+			<td><button id="c05h10"></button></td>
+			<td><button id="c05h11"></button></td>
+			<td><button id="c05R" style="background-color:powderblue;">...</button></td>
+		</tr>
+		<tr>
+			<td>06</td>
+			<td><button id="c06h1"></button></td>
+			<td><button id="c06h2"></button></td>
+			<td><button id="c06h3"></button></td>
+			<td><button id="c06h4"></button></td>
+			<td><button id="c06h5"></button></td>
+			<td><button id="c06h6"></button></td>
+			<td><button id="c06h7"></button></td>
+			<td><button id="c06h8"></button></td>
+			<td><button id="c06h9"></button></td>
+			<td><button id="c06h10"></button></td>
+			<td><button id="c06h11"></button></td>
+			<td><button id="c06R" style="background-color:powderblue;">...</button></td>
+		</tr>
+		<tr>
+			<td>07</td>
+			<td><button id="c07h1"></button></td>
+			<td><button id="c07h2"></button></td>
+			<td><button id="c07h3"></button></td>
+			<td><button id="c07h4"></button></td>
+			<td><button id="c07h5"></button></td>
+			<td><button id="c07h6"></button></td>
+			<td><button id="c07h7"></button></td>
+			<td><button id="c07h8"></button></td>
+			<td><button id="c07h9"></button></td>
+			<td><button id="c07h10"></button></td>
+			<td><button id="c07h11"></button></td>
+			<td><button id="c07R" style="background-color:powderblue;">...</button></td>
+		</tr>
+		<tr>
+			<td>08</td>
+			<td><button id="c08h1"></button></td>
+			<td><button id="c08h2"></button></td>
+			<td><button id="c08h3"></button></td>
+			<td><button id="c08h4"></button></td>
+			<td><button id="c08h5"></button></td>
+			<td><button id="c08h6"></button></td>
+			<td><button id="c08h7"></button></td>
+			<td><button id="c08h8"></button></td>
+			<td><button id="c08h9"></button></td>
+			<td><button id="c08h10"></button></td>
+			<td><button id="c08h11"></button></td>
+			<td><button id="c08R" style="background-color:powderblue;">...</button></td>
+		</tr>
+		<tr>
+			<td>09</td>
+			<td><button id="c09h1"></button></td>
+			<td><button id="c09h2"></button></td>
+			<td><button id="c09h3"></button></td>
+			<td><button id="c09h4"></button></td>
+			<td><button id="c09h5"></button></td>
+			<td><button id="c09h6"></button></td>
+			<td><button id="c09h7"></button></td>
+			<td><button id="c09h8"></button></td>
+			<td><button id="c09h9"></button></td>
+			<td><button id="c09h10"></button></td>
+			<td><button id="c09h11"></button></td>
+			<td><button id="c09R" style="background-color:powderblue;">...</button></td>
+		</tr
+		<tr>
+			<td>10</td>
+			<td><button id="c10h1"></button></td>
+			<td><button id="c10h2"></button></td>
+			<td><button id="c10h3"></button></td>
+			<td><button id="c10h4"></button></td>
+			<td><button id="c10h5"></button></td>
+			<td><button id="c10h6"></button></td>
+			<td><button id="c10h7"></button></td>
+			<td><button id="c10h8"></button></td>
+			<td><button id="c10h9"></button></td>
+			<td><button id="c10h10"></button></td>
+			<td><button id="c10h11"></button></td>
+			<td><button id="c10R" style="background-color:powderblue;">...</button></td>
+		</tr>
+	</table>
+	</article>
+	<br>
+	<article id="articleCubiculo">
+		<label for="usr" id="txtCubiculoYHora">Numero y nombre del cubiculo seleccionado</label>
+		<br>
+		<article id="articleDatosCubiculo">
+			<input type="numeric" placeholder="Número de control" id="txtNumeroControl">
+			<input type="text" placeholder="Nombre" id="txtNombre">
+			<input type="text" placeholder="Carrera" id="txtCarrera">
+			<input type="Date" placeholder="Fecha" id="txtFecha">
+			<input type="text" placeholder="Hora" id="txtHora">
+			<input type="text" placeholder="Cubiculo" id="txtCubiculo">
+			<button class="btn btn-info">?</button>
+		</article>
+		<br>
+		<article>
+			<button class="btn btn-success" id="btnGuardar">GUARDAR</button>
+			<button class="btn btn-warning" id="btnLiberar">LIBERAR</button>
+			<button class="btn btn-danger" id="btnEliminar">ELIMINAR</button>
+		</article>
+	</article>
+	<br>
+	<br>
+	<br>
+</body>
+</html>
